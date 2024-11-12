@@ -1,6 +1,96 @@
-# Welcome to Sonic Pi
+use_bpm 120
 
-live_loop :flibble do
-  sample :bd_haus, rate: 1
-  sleep 0.5
+define :silent_night_melody do
+  play :c4
+  sleep 0.75
+  play :c4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :a4
+  sleep 0.75
+  play :a4
+  sleep 0.75
+  play :g4
+  sleep 1.5
+  
+  play :f4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :d4
+  sleep 0.75
+  play :d4
+  sleep 0.75
+  play :c4
+  sleep 1.5
+  
+  play :g4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :d4
+  sleep 1.5
+  
+  play :g4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :d4
+  sleep 1.5
+  
+  play :c4
+  sleep 0.75
+  play :c4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :g4
+  sleep 0.75
+  play :a4
+  sleep 0.75
+  play :a4
+  sleep 0.75
+  play :g4
+  sleep 1.5
+  
+  play :f4
+  sleep 0.75
+  play :f4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :e4
+  sleep 0.75
+  play :d4
+  sleep 0.75
+  play :d4
+  sleep 0.75
+  play :c4
+  sleep 2
 end
+
+use_synth :bass_highend
+silent_night_melody
