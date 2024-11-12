@@ -33,6 +33,27 @@ define :test do
   play :G3, sustain: 3
   sleep 3.75
   
+  play :A3, sustain: 2
+  sleep 2
+  play :A3, sustain: 1
+  sleep 1
+  play :C4
+  sleep 1
+  play :C4
+  sleep 1
+  play :B3
+  sleep 1
+  play :A3
+  sleep 1
+  play :G3
+  sleep 1
+  play :A3
+  sleep 1
+  play :G3
+  sleep 1
+  play :E3
+  sleep 1
+  
 end
 
 use_synth :piano
