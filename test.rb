@@ -30,7 +30,7 @@ define :test do
   sleep 2.75
   play :C4, sustain: 1.5
   sleep 1.5
-  play :G3, sustain: 3
+  play :G3, sustain: 2.75
   sleep 3.75
   
   play :A3, sustain: 2
